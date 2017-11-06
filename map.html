@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Yellow Cards by Team Yellow 9</title>
+		<title>Generic - Yellow Cards</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -38,77 +38,45 @@
 					</header>
 
 				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">오늘의뉴스</a></li>
-							<li><a href="cur_ev.html">시사</a></li>
-							<li><a href="ittech.html">과학,기술</a></li>
-							<li><a href="life.html">생활</a></li>
-							<li><a href="map.html">찾아오는 길</a></li>
-							<li><a href="lisence.html">라이센스</a></li>
-						</ul>
-					</nav>
+				<nav id="menu">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">오늘의뉴스</a></li>
+						<li><a href="cur_ev.html">시사</a></li>
+						<li><a href="ittech.html">과학,기술</a></li>
+						<li><a href="life.html">생활</a></li>
+						<li><a href="map.html">찾아오는 길</a></li>
+						<li><a href="lisence.html">라이센스</a></li>
+					</ul>
+				</nav>
 
 				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>Science & Technology</h1>
-								<p></p>
-							</header>
-							<section class="tiles">
-								<!-- 기술, 생활 -->
-								<article class="style1">
-									<span class="image">
-										<img src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/13495295_981249905307511_6993319709784585917_n.png?oh=8380afbfb3a3abc8d80272010732f95c&oe=5A7A0A23" alt="" style="width: 80; height: 300px;"/>
-									</span>
-									<a href="FB_research.html">
-										<h2>1위</h2>
-										<div class="content">
-											<p>카드뉴스 만드는 녀자</p>
-										</div>
-									</a>
-								</article>
-								<!-- 기술, 생활 -->
-								<article class="style2">
-									<span class="image">
-										<img src="https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/17758544_1880893505516006_3729143927971338058_o.jpg?oh=dbc8f0488814c002e34f5cf11c7a5787&oe=5A7B274C" alt="" style="width: 80; height: 300px;"/>
-									</span>
-									<a href="neighbor.html">
-										<h2>2위</h2>
-										<div class="content">
-											<p>카드뉴스 제작소</p>
-										</div>
-									</a>
-								</article>
-								<!-- 시사, 과학 -->
-								<article class="style3">
-									<span class="image">
-										<img src="https://img.kr.news.samsung.com/kr/wp-content/uploads/2016/03/%EC%8A%A4%ED%8E%98%EC%85%9C%EB%A6%AC%ED%8F%AC%ED%8A%B8%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98%EB%AF%B8%EB%9E%984.jpg" alt="" style="width: 80; height: 300px;"/>
-									</span>
-									<a href="AI.html">
-										<h2>3위</h2>
-										<div class="content">
-											<p>인공지능의 시대, 일자리 확 줄어든다</p>
-										</div>
-									</a>
-								</article>
-								<!-- 시사, 과학 -->
-								<article class="style4">
-									<span class="image">
-										<img src="http://image.kmib.co.kr/online_image/2014/0520/140519_39_4.jpg" alt="" style="width: 80; height: 300px;"/>
-									</span>
-									<a href="clinical_ex.html">
-										<h2>4위</h2>
-										<div class="content">
-											<p>임상실험하다 인생 망해요</p>
-										</div>
-									</a>
-								</article>
-							</section>
-						</div>
-					</div>
+
+				<style>
+					        #map {
+								        height: 400px;
+										        width: 100%;
+													          }
+				    </style>
+					  </head>
+					    <body>
+							    <div id="map"></div>
+								    <script>
+									      function initMap() {
+											          var uluru = {lat: 37.296384, lng: 126.838952};
+													          var map = new google.maps.Map(document.getElementById('map'), {
+																	            zoom: 16,
+																				          center: uluru
+																						          });
+															          var marker = new google.maps.Marker({
+																			            position: uluru,
+																						          map: map
+																								          });
+																	        }
+				    </script>
+					    <script async defer
+						    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-Omr2vBEDAZHwfw83J2g4Q_X70XM-_Ms&callback=initMap">
+						</script>
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -135,7 +103,6 @@
 								<ul class="icons">
 									<li><a href="https://www.facebook.com/%EA%B5%AC%EC%9A%B4-%EB%B0%94%EB%82%98%EB%82%98-124290291669182/" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
 									<li><a href="https://github.com/ParkShinHyun92/Web_yellow_9" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-
 								</ul>
 							</section>
 							<ul class="copyright">
