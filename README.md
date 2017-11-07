@@ -7,7 +7,7 @@
 https://github.com/ParkShinHyun92/Web_yellow_9
 Free for personal and commercial use under the Apache 2.0 license
 
-**Credits:
+*Credits:
 
  * basic template : [Phantom by HTML5UP](https://html5up.net)
  * image slider : [jssor slider](https://www.jssor.com)
