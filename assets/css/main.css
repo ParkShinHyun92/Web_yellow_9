@@ -2859,8 +2859,9 @@
 		#header .logo {
 			display: block;
 			border-bottom: 0;
-			color: inherit;
+			color: #FFD700;
 			font-weight: 900;
+			font-size: 150%;
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
@@ -2879,8 +2880,8 @@
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 1em;
+					height: 1em;
 				}
 
 		#header nav {
@@ -3012,7 +3013,7 @@
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #DAA520;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
