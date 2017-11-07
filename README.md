@@ -1,7 +1,7 @@
 # 구운 바나나
 
 > 구운 바나나 by OSSW Basic 2017 team yellow 9
->https://verssae.github.io/Web_yellow_9/<br/> 
+>https://ParkShinHyun92.github.io/Web_yellow_9/<br/> 
 >Free for personal and commercial use under the Apache 2.0 license
 
 * **Credits**:
